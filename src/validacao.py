@@ -6,7 +6,7 @@ Regras de validação dos dados de transações do pipeline NeoPIX.
 
 import pandas as pd
 
-from logging_config import get_logger
+from src.logging_config import get_logger
 
 
 logger = get_logger("validacao")
